@@ -15,6 +15,17 @@
 </head>
 <body>
 
+  <nav class="navbar navbar-expand-md navbar-light and bg-light">
+    <a class="navbar-brand" href="animals.html">Interesting Animals</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="train.html" target="_blank">Train</a></li>
+            <li class="nav-item active"> <a class="nav-link" href="plane.html" target="_blank">Plane</a></li>
+  </nav>
+
 <h1 style="text-align:center">Animals_by_Saivivek_Reddy_Kusukuntla</h1>
 <div class="container">
     <div class="row">
@@ -111,7 +122,7 @@
 <hr>
     <div class="container">
         <h4>Three button's grouped and wraped using divs.</h4>
-        <nav class="navbar navbar-expand-sm navbar-light" style="background-color:lemonchiffon">
+        <!-- <nav class="navbar navbar-expand-sm navbar-light" style="background-color:lemonchiffon"> -->
             <div class="topnav">
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group">
@@ -126,19 +137,43 @@
           <div class="btn-group">
             <button type="button" class="btn btn-danger">U</button>
           </div>
-          <div class="btn-group">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">dropdown-menu</button>
-           <div class="dropdown-menu">
-             <a class="dropdown-item" href="plane.html">Tablet</a>
-             <a class="dropdown-item" href="train.html">Smartphone</a>
-           </div>
           </div>
         </div>
     </div>
       </div> 
-    </nav>
+    <!-- </nav> -->
     <hr>
-
+    <div class="container">
+      <div class="dropdown">
+        <h5>Dropdown Menu</h5>
+      <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" id="dropdownMenuButton1" aria-expanded="false">dropdown-menu</button>
+     <div class="dropdown-menu">
+       <a class="dropdown-item" href="plane.html" target="_blank">Go to Plane</a>
+       <a class="dropdown-item" href="train.html" target="_blank">Go to Train</a>
+     </div>
+    </div>
+    <hr>
+    <div class="Container">
+    <form>
+      <h4>The forms Element</h4>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Hola its your email!</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Animal</label>
+        <input type="text" class="form-control" placeholder="Enter your animal">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input">
+        <label class="formcheck-label">Sign up for newsletter?</label>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+<br><br><hr>
       
 
     <!-- <span class="spinner-grow spinner-grow-sm"></span> -->
